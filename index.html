@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="page_title">Hinter dem Symbol</title>
+  <meta name="description" content="Was Hammer und Sichel für die Menschen bedeutet, die unter diesem Zeichen litten." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- LANGUAGE BAR -->
+  <div class="lang-bar">
+    <button class="lang-btn active" data-lang="de">DE</button>
+    <button class="lang-btn" data-lang="en">EN</button>
+  </div>
+
+  <!-- HOOK -->
+  <section class="hook" aria-label="Hook">
+    <div class="hook-inner">
+      <div class="hook-number" data-i18n="hook_number">~100 Mio.</div>
+      <h1 class="hook-text" data-i18n="hook_headline">Menschen starben unter kommunistischen Regimen, die dieses Symbol trugen.</h1>
+      <p class="hook-sub" data-i18n="hook_sub">Dies ist kein politischer Angriff. Dies ist Erinnerung.</p>
+    </div>
+
+    <!-- 2x6 PHOTO GRID -->
+    <!-- Add data-caption-de / data-caption-en and data-source to each cell -->
+    <div class="photo-grid" role="img" aria-label="Historische Fotos">
+
+      <div class="photo-cell"
+           data-caption-de="Gulag-Häftlinge bei der Zwangsarbeit in Sibirien, ca. 1940er."
+           data-caption-en="Gulag prisoners performing forced labour in Siberia, c. 1940s."
+           data-source="NKVD-Archiv / Wikimedia Commons">
+        <img src="../assets/nkvd.jpg" alt="Gulag-Häftlinge" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Dorf in der Ukraine während des Holodomor, 1932–33. Die Getreidevorräte wurden beschlagnahmt."
+           data-caption-en="Ukrainian village during the Holodomor, 1932–33. Grain stores were confiscated."
+           data-source="Archiv der Ukraine / Memorial">
+        <img src="../assets/holodomor.jpg" alt="Holodomor Ukraine" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Mykola Kulisch, ukrainischer Dramatiker. 1937 erschossen. Teil der 'Erschossenen Renaissance'."
+           data-caption-en="Mykola Kulish, Ukrainian playwright. Shot in 1937. Part of the 'Executed Renaissance'."
+           data-source="Ukrainisches Institut für Nationale Erinnerung">
+        <img src="../assets/renaissance.jpg" alt="Erschossene Renaissance" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Krim-tatarische Familie bei der Deportation nach Zentralasien, Mai 1944."
+           data-caption-en="Crimean Tatar family during deportation to Central Asia, May 1944."
+           data-source="Archiv Krim-Tatarisches Nationalarchiv">
+        <img src="../assets/tatars.jpg" alt="Deportation der Krim-Tataren" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Ribbentrop und Molotow unterzeichnen den Nichtangriffspakt, 23. August 1939. Stalin schaut zu."
+           data-caption-en="Ribbentrop and Molotov sign the non-aggression pact, 23 August 1939. Stalin looks on."
+           data-source="Bundesarchiv Deutschland">
+        <img src="../assets/ww2.jpg" alt="Hitler-Stalin-Pakt" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Warteschlange vor einem Lebensmittelladen in Moskau, 1960er. Nahrungsmittelknappheit war allgegenwärtig."
+           data-caption-en="Queue outside a food shop in Moscow, 1960s. Food shortages were endemic."
+           data-source="David Turnley / Corbis">
+        <img src="../assets/poverty.jpg" alt="Alltag unter dem Regime" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Luftaufnahme eines Gulag-Lagers in Sibirien. Tausende solcher Lager existierten über Jahrzehnte."
+           data-caption-en="Aerial view of a Gulag camp in Siberia. Thousands of such camps existed for decades."
+           data-source="Memorial International">
+        <img src="assets/photos/gulag2.jpg" alt="Gulag-Lager" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Leichen auf den Straßen von Charkiw, 1932. Fotografiert heimlich von dem Ingenieur Alexander Wienerberger."
+           data-caption-en="Corpses on the streets of Kharkiv, 1932. Photographed secretly by engineer Alexander Wienerberger."
+           data-source="Alexander Wienerberger, 1932">
+        <img src="assets/photos/holodomor2.jpg" alt="Hungertote" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Deportation der Wolgadeutschen, 1941. Über 400.000 Menschen wurden in wenigen Tagen vertrieben."
+           data-caption-en="Deportation of the Volga Germans, 1941. Over 400,000 people were expelled within days."
+           data-source="Russisches Staatsarchiv">
+        <img src="assets/photos/deportation.jpg" alt="Deportation" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Sowjetisches Propagandaplakat, 1930er. Das Regime kontrollierte jede Form öffentlicher Kommunikation."
+           data-caption-en="Soviet propaganda poster, 1930s. The regime controlled every form of public communication."
+           data-source="Sowjetisches Staatsarchiv">
+        <img src="../assets/propaganda.jpg" alt="Sowjet-Propaganda" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Massengrab aus der Großen Säuberung, Butowo bei Moskau. 20.000 Menschen wurden hier 1937–38 erschossen."
+           data-caption-en="Mass grave from the Great Purge, Butovo near Moscow. 20,000 people were shot here in 1937–38."
+           data-source="Memorial International / Butowo-Archiv">
+        <img src="assets/photos/purge.jpg" alt="Große Säuberung" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+      <div class="photo-cell"
+           data-caption-de="Lebensmittelschlange in Ostberlin, 1950er. Mangelwirtschaft war das tägliche Leben im Ostblock."
+           data-caption-en="Food queue in East Berlin, 1950s. Shortage economics were daily life across the Eastern Bloc."
+           data-source="Bundesarchiv Deutschland">
+        <img src="assets/photos/queue.jpg" alt="Warteschlange für Lebensmittel" onerror="this.style.display='none'" />
+        <div class="photo-hover"><p class="photo-hover-text"></p><p class="photo-hover-source"></p></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LEFTIST AFFIRMATION -->
+  <section class="section section-affirm">
+    <span class="badge" data-i18n="affirm_badge">Für Links-Denkende</span>
+    <h2 class="section-title" data-i18n="affirm_title">Du kannst links sein – und dieses Symbol ablehnen.</h2>
+    <p class="section-body" data-i18n="affirm_body">
+      Arbeitnehmerrechte, Solidarität, Anti-Kapitalismus – das sind gute Werte. Sie verdienen bessere Symbole. Wer Hammer und Sichel trägt, ohne es zu hinterfragen, signalisiert ungewollt: die Opfer dieser Regime zählen weniger. Gerade wenn dir soziale Gerechtigkeit wichtig ist, solltest du das nicht wollen. Dieses Symbol ablehnen macht dich nicht weniger links – es macht dich konsequenter.
+    </p>
+  </section>
+
+  <!-- THE NUMBERS -->
+  <section class="section">
+    <p class="section-label" data-i18n="numbers_label">Die Zahlen</p>
+    <h2 class="section-title" data-i18n="numbers_title">Was hinter dem Symbol steht</h2>
+    <p class="section-body" data-i18n="numbers_body">
+      Diese Zahlen sind keine Abstraktion. Hinter jeder Zahl stehen Namen, Familien, Leben. Die Historiker streiten über die genauen Zahlen – aber nicht darüber, dass das Ausmaß beispiellos war.
+    </p>
+
+    <div class="stat-grid">
+      <div class="stat-block stat-block--red">
+        <span class="stat-num">1,5–1,8 Mio.</span>
+        <span class="stat-desc" data-i18n="stat_gulag">Im Gulag gestorben · 1918–1956</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-num">3,5–7 Mio.</span>
+        <span class="stat-desc" data-i18n="stat_holodomor">Holodomor · Ukraine 1932–33</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-num">~750.000</span>
+        <span class="stat-desc" data-i18n="stat_purge">Erschossen · Große Säuberung 1937–38</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-num">~200.000</span>
+        <span class="stat-desc" data-i18n="stat_renaissance">Erschossene Renaissance · Ukraine 1930er</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-num">~190.000</span>
+        <span class="stat-desc" data-i18n="stat_tatars">Krim-Tataren deportiert · 1944</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-num">~1 Mio. km²</span>
+        <span class="stat-desc" data-i18n="stat_pact">Besetzt durch Hitler-Stalin-Pakt · 1939–41</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOPIC: GULAG -->
+  <section class="section section-alt">
+    <p class="section-label" data-i18n="gulag_label">Gulag</p>
+    <h2 class="section-title" data-i18n="gulag_title">Das größte Lagersystem der Geschichte</h2>
+    <p class="section-body" data-i18n="gulag_body">
+      Zwischen 1918 und 1956 durchliefen schätzungsweise 18 Millionen Menschen das Gulag-System. Häftlinge arbeiteten unter extremen Bedingungen in Bergwerken, beim Kanalbau, in Wäldern Sibiriens. Verhaftet wurden sie oft wegen eines Witzes, eines Briefes, einer falschen Aussage eines Nachbarn. Das Ziel: nicht nur Bestrafung, sondern Auslöschung von Klassen, Kulturen, Gedanken.
+    </p>
+  </section>
+
+  <!-- TOPIC: HOLODOMOR -->
+  <section class="section">
+    <p class="section-label" data-i18n="holodomor_label">Holodomor</p>
+    <h2 class="section-title" data-i18n="holodomor_title">Der organisierte Hunger</h2>
+    <p class="section-body" data-i18n="holodomor_body">
+      1932–33 starben in der Ukraine zwischen 3,5 und 7 Millionen Menschen an einer von Stalin bewusst herbeigeführten Hungersnot. Getreide wurde aus hungernden Dörfern abtransportiert, während Bauern Todesstrafen bekamen, wenn sie Ähren auflasen. Heute erkennen über 30 Staaten den Holodomor als Völkermord an.
+    </p>
+  </section>
+
+  <!-- TOPIC: SHOT RENAISSANCE -->
+  <section class="section section-alt">
+    <p class="section-label" data-i18n="renaissance_label">Erschossene Renaissance</p>
+    <h2 class="section-title" data-i18n="renaissance_title">Eine ganze Kulturgeneration ausgelöscht</h2>
+    <p class="section-body" data-i18n="renaissance_body">
+      In den 1930ern wurden fast alle bedeutenden ukrainischen Schriftsteller, Künstler und Intellektuellen verhaftet, erschossen oder in Lager deportiert. Eine ganze Kulturgeneration – die "Rozstriliane vidrodzhennia" – wurde systematisch vernichtet, weil ukrainische Identität als Bedrohung für das sowjetische Projekt galt.
+    </p>
+  </section>
+
+  <!-- TOPIC: CRIMEAN TATARS -->
+  <section class="section">
+    <p class="section-label" data-i18n="tatars_label">Krim-Tataren</p>
+    <h2 class="section-title" data-i18n="tatars_title">Ein Volk in Viehwaggons</h2>
+    <p class="section-body" data-i18n="tatars_body">
+      Im Mai 1944 wurden innerhalb von drei Tagen fast 200.000 Krim-Tataren in Viehwaggons nach Zentralasien deportiert. Schätzungsweise 18–46 % starben auf dem Weg oder kurz danach. Der Vorwurf: kollektive Kollaboration. Ein ganzes Volk kollektivbestraft, die Heimat für immer verloren.
+    </p>
+  </section>
+
+  <!-- TOPIC: WW2 INVOLVEMENT -->
+  <section class="section section-alt">
+    <p class="section-label" data-i18n="ww2_label">1939–1941</p>
+    <h2 class="section-title" data-i18n="ww2_title">Die UdSSR war kein neutraler Zuschauer des Zweiten Weltkriegs</h2>
+    <p class="section-body" data-i18n="ww2_body">
+      Im August 1939 unterzeichneten Stalin und Hitler den Molotow-Ribbentrop-Pakt und teilten Europa heimlich unter sich auf. Die UdSSR marschierte in Polen ein, annektierte die baltischen Staaten, besetzte Teile Finnlands und Rumäniens. Das Massaker von Katyn: 22.000 polnische Offiziere und Intellektuelle, erschossen vom NKWD. Erst 1990 gab die Sowjetunion die Verantwortung zu.
+    </p>
+  </section>
+
+  <!-- TOPIC: EVERYDAY MISERY -->
+  <section class="section">
+    <p class="section-label" data-i18n="poverty_label">Das alltägliche Leben</p>
+    <h2 class="section-title" data-i18n="poverty_title">Nicht Unterdrückung als Ausnahme – als System</h2>
+    <p class="section-body" data-i18n="poverty_body">
+      Jenseits der großen Verbrechen: Das Leben unter dem Regime war für die meisten Menschen arm, kontrolliert und angstvoll. Warteschlangen für Grundnahrungsmittel. Denunziation durch Nachbarn. Keine Reisefreiheit. Kein freier Beruf. Kunst unter Zensur. Wer das falsche Buch las oder den falschen Witz erzählte, riskierte sein Leben. Das ist kein Versagen des Sozialismus – das ist, was dieser spezifische Staat aktiv gebaut hat.
+    </p>
+  </section>
+
+  <!-- SURVIVOR VOICE -->
+  <blockquote class="quote-section">
+    <p class="quote-text" data-i18n="quote_text">
+      "Für meine Familie ist dieses Zeichen kein Symbol der Befreiung. Es ist das Symbol derer, die meinen Großvater abgeholt haben und nie zurückgebracht haben."
+    </p>
+    <cite class="quote-attr" data-i18n="quote_attr">— Stimme einer Überlebenden-Enkelin, Estland</cite>
+    <p class="quote-note" data-i18n="quote_note">Wenn du links bist und für die Unterdrückten kämpfst – kannst du dir leisten, diese Stimme zu ignorieren?</p>
+  </blockquote>
+
+  <!-- THE SYMBOL ARGUMENT -->
+  <section class="section">
+    <p class="section-label" data-i18n="symbol_label">Das Symbol</p>
+    <h2 class="section-title" data-i18n="symbol_title">Marx ist nicht Stalin. Sozialismus ist nicht die Sowjetunion.</h2>
+    <p class="section-body" data-i18n="symbol_body">
+      Das Argument ist nicht: linke Ideen sind falsch. Das Argument ist: dieses spezifische Symbol repräsentiert ein spezifisches Regime, das im Namen des Kommunismus tötete. Ein Hakenkreuz "ironisch" zu tragen wäre für deutsche Linke undenkbar – weil klar ist, was es für die Opfer bedeutet. Denselben Respekt verdienen die Opfer des sowjetischen Terrors. Du kannst weiterhin für Arbeitnehmerrechte kämpfen, ohne das Symbol derer zu tragen, die Arbeitnehmer erschossen haben.
+    </p>
+  </section>
+
+  <!-- SWASTIKA COMPARISON -->
+  <section class="section section-swastika">
+    <p class="section-label" data-i18n="swastika_label">Die Doppelmoral</p>
+    <h2 class="section-title" data-i18n="swastika_title">Warum ist das Hakenkreuz klar – und dieses Symbol nicht?</h2>
+    <p class="section-body" data-i18n="swastika_body_1">
+      Das Hakenkreuz war einmal ein Zeichen für Glück und Sonne – in Asien, in der Antike, in indigenen Kulturen weltweit. Dann wurde es von einem Regime gekapert, das Millionen ermordete. Heute trägt niemand in der westlichen Linken das Hakenkreuz, um auf diese ursprünglichen Bedeutungen hinzuweisen. Wir alle verstehen: Für die Opfer und Nachkommen ist es das Symbol des Terrors. Das ist keine Zensur. Das ist Respekt.
+    </p>
+    <div class="compare-grid">
+      <div class="compare-block">
+        <div class="compare-symbol" aria-label="Hakenkreuz">卐</div>
+        <p class="compare-desc" data-i18n="compare_swastika_desc">Ursprünglich ein altes Glückssymbol. Heute weltweit als Symbol des NS-Terrors verstanden. Kein westlicher Linker würde es tragen.</p>
+      </div>
+      <div class="compare-divider" aria-hidden="true">≈</div>
+      <div class="compare-block">
+        <div class="compare-symbol" aria-label="Hammer und Sichel">☭</div>
+        <p class="compare-desc" data-i18n="compare_sickle_desc">Ursprünglich ein Symbol der Arbeiterbewegung. Wurde zum Zeichen eines Regimes, das mehr Menschen tötete als die Nazis. Wird im Westen noch immer getragen.</p>
+      </div>
+    </div>
+    <p class="section-body" data-i18n="swastika_body_2">
+      Die ehrliche Frage ist: Warum der Unterschied? Mögliche Antworten – und keine davon hält stand:
+    </p>
+    <ul class="reason-list">
+      <li class="reason-item">
+        <span class="reason-q" data-i18n="reason_1_q">„Es hat eine andere Bedeutung."</span>
+        <span class="reason-a" data-i18n="reason_1_a">Das Hakenkreuz auch – bis es das nicht mehr hatte. Bedeutung wird von den Opfern mitbestimmt, nicht nur von den Träger*innen.</span>
+      </li>
+      <li class="reason-item">
+        <span class="reason-q" data-i18n="reason_2_q">„Die Opfer sind weit weg."</span>
+        <span class="reason-a" data-i18n="reason_2_a">Estland ist 1.800 km entfernt. Die Ukraine ist in der EU-Nachbarschaft. Distanz ist keine moralische Kategorie.</span>
+      </li>
+      <li class="reason-item">
+        <span class="reason-q" data-i18n="reason_3_q">„Die kommunistischen Opfer zählen weniger."</span>
+        <span class="reason-a" data-i18n="reason_3_a">Das ist die implizite Logik. Es ist falsch. Jedes Leben zählt gleich.</span>
+      </li>
+      <li class="reason-item">
+        <span class="reason-q" data-i18n="reason_4_q">„Es geht um die Idee, nicht das Regime."</span>
+        <span class="reason-a" data-i18n="reason_4_a">Gut. Dann brauchst du das Symbol dieses Regimes nicht. Es gibt viele andere.</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SEE ALSO -->
+  <section class="section section-alt section-seealso">
+    <p class="section-label" data-i18n="seealso_label">Mehr lesen</p>
+    <h2 class="section-title" data-i18n="seealso_title">Themen, über die es sich lohnt zu informieren</h2>
+    <p class="section-body" data-i18n="seealso_intro">
+      Was hier beschrieben wird, ist nur ein Ausschnitt. Wer tiefer gehen will:
+    </p>
+    <div class="seealso-grid">
+      <div class="seealso-item">
+        <span class="seealso-tag" data-i18n="tag_person">Person</span>
+        <h3 class="seealso-name">Wladimir Lenin</h3>
+        <p class="seealso-desc" data-i18n="seealso_lenin">Gründer der Sowjetunion. Errichtete das erste Konzentrationslager-System in Europa (1918). Autorisierte Massenexekutionen von Bauern und politischen Gegnern. Stalin war sein Nachfolger – in einem System, das Lenin gebaut hatte.</p>
+      </div>
+      <div class="seealso-item">
+        <span class="seealso-tag" data-i18n="tag_person">Person</span>
+        <h3 class="seealso-name">Josef Stalin</h3>
+        <p class="seealso-desc" data-i18n="seealso_stalin">Verantwortlich für den Holodomor, die Große Säuberung, das Gulag-System und die Massendeportationen. Schätzungsweise 6–20 Millionen Todesopfer allein durch direkte Staatspolitik, zusätzlich zu Kriegsverlusten.</p>
+      </div>
+      <div class="seealso-item">
+        <span class="seealso-tag" data-i18n="tag_event">Ereignis</span>
+        <h3 class="seealso-name">Katyn-Massaker, 1940</h3>
+        <p class="seealso-desc" data-i18n="seealso_katyn">22.000 polnische Offiziere, Intellektuelle und Staatsbeamte, erschossen vom NKWD auf Stalins Befehl. Jahrzehntelang der Nazideutschland angelastet. Erst 1990 anerkannte die UdSSR die Verantwortung.</p>
+      </div>
+      <div class="seealso-item">
+        <span class="seealso-tag" data-i18n="tag_event">Ereignis</span>
+        <h3 class="seealso-name">Prager Frühling, 1968</h3>
+        <p class="seealso-desc" data-i18n="seealso_prague">Als die Tschechoslowakei versuchte, einen „Sozialismus mit menschlichem Antlitz" einzuführen, marschierten sowjetische Panzer ein. Hunderte Tote, Tausende verhaftet. Das Regime konnte keine Reformen dulden.</p>
+      </div>
+      <div class="seealso-item">
+        <span class="seealso-tag" data-i18n="tag_event">Ereignis</span>
+        <h3 class="seealso-name">Baltische Deportationen, 1941 & 1949</h3>
+        <p class="seealso-desc" data-i18n="seealso_baltics">In zwei großen Wellen wurden über 200.000 Esten, Letten und Litauer nach Sibirien deportiert. Familien wurden in der Nacht aus ihren Häusern gerissen. Viele kehrten nie zurück.</p>
+      </div>
+      <div class="seealso-item">
+        <span class="seealso-tag" data-i18n="tag_event">Ereignis</span>
+        <h3 class="seealso-name">Ungarische Revolution, 1956</h3>
+        <p class="seealso-desc" data-i18n="seealso_hungary">Ungarn erhob sich gegen die sowjetische Kontrolle. Rote Armee schlug den Aufstand nieder: ~2.500 Ungarn getötet, 200.000 flohen ins Ausland. Arbeiter*innen gegen einen Staat, der behauptete, für sie zu sprechen.</p>
+      </div>
+      <div class="seealso-item">
+        <span class="seealso-tag" data-i18n="tag_concept">Konzept</span>
+        <h3 class="seealso-name">Rote Khmer / Kambodscha</h3>
+        <p class="seealso-desc" data-i18n="seealso_khmer">1975–79 ermordeten die Roten Khmer 1,5–2 Millionen Menschen – ca. 25 % der kambodschanischen Bevölkerung. Ein kommunistisches Regime. Im Namen des Volkes.</p>
+      </div>
+      <div class="seealso-item">
+        <span class="seealso-tag" data-i18n="tag_concept">Konzept</span>
+        <h3 class="seealso-name">Nordkorea heute</h3>
+        <p class="seealso-desc" data-i18n="seealso_nkorea">Das einzige noch aktive stalinistische Regime der Welt. Gulags (Kwanliso) existieren noch immer mit schätzungsweise 100.000–200.000 Häftlingen. Das Hammer-und-Sichel-System wurde nicht überwunden – es existiert noch.</p>
+      </div>
+      <div class="seealso-item">
+        <span class="seealso-tag" data-i18n="tag_book">Buch</span>
+        <h3 class="seealso-name">„Der Archipel Gulag" – Solschenizyn</h3>
+        <p class="seealso-desc" data-i18n="seealso_gulag_book">Das erste große Zeugnis von innen. Alexander Solschenizyn verbrachte acht Jahre im Gulag. Sein Buch (1973) erschütterte die westliche Linke – und wurde von vielen trotzdem verdrängt.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="section section-cta">
+    <p class="section-label" data-i18n="cta_label">Was du tun kannst</p>
+    <h2 class="section-title" data-i18n="cta_title">Eine kleine Geste. Eine echte Wirkung.</h2>
+    <p class="section-body" data-i18n="cta_body">
+      Kein moralischer Zeigefinger. Keine Partei. Nur eine Bitte: Denk kurz nach, bevor du dieses Symbol trägst oder affirmativ verwendest. Frag dich, was es für jemanden aus Estland, der Ukraine, Kasachstan bedeutet. Es gibt viele andere Wege, linke Werte zu zeigen – Wege, die niemanden verletzen, der bereits verletzt wurde.
+    </p>
+  </section>
+
+  <!-- SOURCES -->
+  <section class="sources">
+    <h3 class="sources-title" data-i18n="sources_title">Quellen</h3>
+    <ul class="source-list">
+      <li class="source-item">Robert Conquest – <em>The Great Terror</em> (1968)</li>
+      <li class="source-item">Stéphane Courtois et al. – <em>Das Schwarzbuch des Kommunismus</em> (1997)</li>
+      <li class="source-item">Anne Applebaum – <em>Gulag: A History</em> (2003)</li>
+      <li class="source-item">Timothy Snyder – <em>Bloodlands: Europe Between Hitler and Stalin</em> (2010)</li>
+      <li class="source-item">Memorial International – <a href="https://www.memo.ru" target="_blank" rel="noopener">memo.ru</a></li>
+      <li class="source-item">Ukrainisches Institut für Nationale Erinnerung – <a href="https://uinp.gov.ua" target="_blank" rel="noopener">uinp.gov.ua</a></li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-text" data-i18n="footer_text">Keine politische Organisation · Keine Partei · Nur Erinnerung</p>
+  </footer>
+
+  <script src="i18n/de.js"></script>
+  <script src="i18n/en.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
