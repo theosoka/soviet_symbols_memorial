@@ -36,41 +36,6 @@ const en = {
   stat_tatars: "Crimean Tatars deported · 1944",
   stat_pact: "Occupied under Molotov-Ribbentrop Pact · 1939–41",
 
-  // Gulag
-  gulag_label: "Gulag",
-  gulag_title: "The largest camp system in history",
-  gulag_body: `Between 1918 and 1956, an estimated 18 million people passed through the Gulag system. Prisoners worked under extreme conditions in mines, on canal construction, in the forests of Siberia. They were often arrested for a joke, a letter, a neighbour's false testimony. The goal was not just punishment – it was the erasure of classes, cultures, and thoughts.`,
-
-  // Holodomor
-  holodomor_label: "Holodomor",
-  holodomor_title: "The organised famine",
-  holodomor_body: `Between 1932 and 1933, between 3.5 and 7 million people in Ukraine died of a famine deliberately engineered by Stalin. Grain was transported out of starving villages while peasants faced the death penalty for picking up fallen ears of wheat. Today, over 30 countries recognise the Holodomor as genocide.`,
-
-  // Shot Renaissance
-  renaissance_label: "Executed Renaissance",
-  renaissance_title: "An entire cultural generation wiped out",
-  renaissance_body: `During the 1930s, almost all prominent Ukrainian writers, artists, and intellectuals were arrested, shot, or deported to camps. An entire cultural generation – "Rozstriliane vidrodzhennia" – was systematically destroyed because Ukrainian identity was seen as a threat to the Soviet project.`,
-
-  // Crimean Tatars
-  tatars_label: "Crimean Tatars",
-  tatars_title: "A people in cattle wagons",
-  tatars_body: `In May 1944, within three days, nearly 200,000 Crimean Tatars were loaded into cattle wagons and deported to Central Asia. An estimated 18–46% died during the journey or shortly after. The charge: collective collaboration. An entire people collectively punished, their homeland lost forever.`,
-
-  // WW2
-  ww2_label: "1939–1941",
-  ww2_title: "The USSR was not a neutral bystander in World War II",
-  ww2_body: `In August 1939, Stalin and Hitler signed the Molotov-Ribbentrop Pact, secretly dividing Europe between them. The USSR invaded Poland, annexed the Baltic states, and occupied parts of Finland and Romania. The Katyn massacre: 22,000 Polish officers and intellectuals, shot by the NKVD. The Soviet Union only admitted responsibility in 1990.`,
-
-  // Poverty
-  poverty_label: "Everyday Life",
-  poverty_title: "Oppression not as exception – as system",
-  poverty_body: `Beyond the great crimes: life under the regime was poor, controlled, and fearful for most people. Queues for basic food. Denunciation by neighbours. No freedom of movement. No free profession. Art under censorship. Reading the wrong book or telling the wrong joke could cost you your life. This is not a failure of socialism – this is what this specific state actively built.`,
-
-  // Quote
-  quote_text: `"For my family, this symbol is not a symbol of liberation. It is the symbol of those who took my grandfather away and never brought him back."`,
-  quote_attr: "— Voice of a survivor's grandchild, Estonia",
-  quote_note: "If you are on the left and you fight for the oppressed – can you afford to ignore this voice?",
-
   // Symbol
   symbol_label: "The Symbol",
   symbol_title: "Marx is not Stalin. Socialism is not the Soviet Union.",

@@ -36,41 +36,6 @@ const de = {
   stat_tatars: "Krim-Tataren deportiert · 1944",
   stat_pact: "Besetzt durch Hitler-Stalin-Pakt · 1939–41",
 
-  // Gulag
-  gulag_label: "Gulag",
-  gulag_title: "Das größte Lagersystem der Geschichte",
-  gulag_body: `Zwischen 1918 und 1956 durchliefen schätzungsweise 18 Millionen Menschen das Gulag-System. Häftlinge arbeiteten unter extremen Bedingungen in Bergwerken, beim Kanalbau, in Wäldern Sibiriens. Verhaftet wurden sie oft wegen eines Witzes, eines Briefes, einer falschen Aussage eines Nachbarn. Das Ziel: nicht nur Bestrafung, sondern Auslöschung von Klassen, Kulturen, Gedanken.`,
-
-  // Holodomor
-  holodomor_label: "Holodomor",
-  holodomor_title: "Der organisierte Hunger",
-  holodomor_body: `1932–33 starben in der Ukraine zwischen 3,5 und 7 Millionen Menschen an einer von Stalin bewusst herbeigeführten Hungersnot. Getreide wurde aus hungernden Dörfern abtransportiert, während Bauern Todesstrafen bekamen, wenn sie Ähren auflasen. Heute erkennen über 30 Staaten den Holodomor als Völkermord an.`,
-
-  // Shot Renaissance
-  renaissance_label: "Erschossene Renaissance",
-  renaissance_title: "Eine ganze Kulturgeneration ausgelöscht",
-  renaissance_body: `In den 1930ern wurden fast alle bedeutenden ukrainischen Schriftsteller, Künstler und Intellektuellen verhaftet, erschossen oder in Lager deportiert. Eine ganze Kulturgeneration – die "Rozstriliane vidrodzhennia" – wurde systematisch vernichtet, weil ukrainische Identität als Bedrohung für das sowjetische Projekt galt.`,
-
-  // Crimean Tatars
-  tatars_label: "Krim-Tataren",
-  tatars_title: "Ein Volk in Viehwaggons",
-  tatars_body: `Im Mai 1944 wurden innerhalb von drei Tagen fast 200.000 Krim-Tataren in Viehwaggons nach Zentralasien deportiert. Schätzungsweise 18–46 % starben auf dem Weg oder kurz danach. Der Vorwurf: kollektive Kollaboration. Ein ganzes Volk kollektivbestraft, die Heimat für immer verloren.`,
-
-  // WW2
-  ww2_label: "1939–1941",
-  ww2_title: "Die UdSSR war kein neutraler Zuschauer des Zweiten Weltkriegs",
-  ww2_body: `Im August 1939 unterzeichneten Stalin und Hitler den Molotow-Ribbentrop-Pakt und teilten Europa heimlich unter sich auf. Die UdSSR marschierte in Polen ein, annektierte die baltischen Staaten, besetzte Teile Finnlands und Rumäniens. Das Massaker von Katyn: 22.000 polnische Offiziere und Intellektuelle, erschossen vom NKWD. Erst 1990 gab die Sowjetunion die Verantwortung zu.`,
-
-  // Poverty
-  poverty_label: "Das alltägliche Leben",
-  poverty_title: "Nicht Unterdrückung als Ausnahme – als System",
-  poverty_body: `Jenseits der großen Verbrechen: Das Leben unter dem Regime war für die meisten Menschen arm, kontrolliert und angstvoll. Warteschlangen für Grundnahrungsmittel. Denunziation durch Nachbarn. Keine Reisefreiheit. Kein freier Beruf. Kunst unter Zensur. Wer das falsche Buch las oder den falschen Witz erzählte, riskierte sein Leben. Das ist kein Versagen des Sozialismus – das ist, was dieser spezifische Staat aktiv gebaut hat.`,
-
-  // Quote
-  quote_text: `"Für meine Familie ist dieses Zeichen kein Symbol der Befreiung. Es ist das Symbol derer, die meinen Großvater abgeholt haben und nie zurückgebracht haben."`,
-  quote_attr: "— Stimme einer Überlebenden-Enkelin, Estland",
-  quote_note: "Wenn du links bist und für die Unterdrückten kämpfst – kannst du dir leisten, diese Stimme zu ignorieren?",
-
   // Symbol
   symbol_label: "Das Symbol",
   symbol_title: "Marx ist nicht Stalin. Sozialismus ist nicht die Sowjetunion.",
